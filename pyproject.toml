@@ -1,0 +1,15 @@
+[project]
+name = "Graph-Rag"
+version = "0.1.0"
+description = "Graph RAG Application by scraping static/dynamic content from web portal"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "neo4j",
+    "langchain-neo4j",
+    "langchain-openai",
+    "streamlit",
+    "python-dotenv",
+    "crawl4ai",
+    "openai",
+]
